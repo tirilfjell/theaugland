@@ -18,10 +18,10 @@
                   </h2>
                 </div>
               </div>
-              <div class="mt-12 -mb-16 sm:-mb-20 lg:m-0 lg:relative">
+              <div class=" items-stretch  self end lg:mt-200  sm:-mb-20 lg:mr-30 lg:relative">
                 <div class="mx-auto max-w-md px-4 sm:max-w-2xl sm:px-6 lg:max-w-none lg:px-0">
                   <!-- Illustration taken from Lucid Illustrations: https://lucid.pixsellz.io/ -->
-                  <img class="w-full lg:absolute lg:inset-y-0 lg:left-0 lg:h-full lg:w-auto lg:max-w-none" src="../assets/thea4.png" alt="" />
+                  <img class="w-full lg:absolute lg:inset-y-0 lg:left-0 lg:h-full lg:w-auto lg:max-w-none" src="../assets/thea5.png" alt="" />
                 </div>
               </div>
             </div>
