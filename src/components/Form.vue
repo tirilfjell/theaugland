@@ -4,7 +4,7 @@
       <div class="relative bg-white shadow-xl">
         <h2 class="sr-only">Contact us</h2>
 
-        <div class="grid grid-cols-1 lg:grid-cols-3">
+        <div data-aos="flip-right" data-aos-duration="500" class="grid grid-cols-1 lg:grid-cols-3">
           <!-- Contact information -->
           <div class="relative overflow-hidden py-10 px-6 bg-indigo-700 sm:px-10 xl:p-12">
             <div class="absolute inset-0 pointer-events-none sm:hidden" aria-hidden="true">
@@ -90,24 +90,8 @@
               </li>
             </ul>
           </div>
-
-          <!--          <form class="form" name="contact" method="POST" data-netlify="true">
-    <p>
-      <label>Your Name: <input type="text" name="name" /></label>
-    </p>
-    <p>
-      <label>Your Email: <input type="email" name="email" /></label>
-    </p>
-    <p>
-      <label>Message: <textarea name="message"></textarea></label>
-    </p>
-    <p>
-      <button type="submit">Send</button>
-    </p>
-  </form> -->
-
           <!-- Contact form -->
-          <div class="py-10 px-6 sm:px-10 lg:col-span-2 xl:p-12">
+          <div id="form" class="py-10 px-6 sm:px-10 lg:col-span-2 xl:p-12">
             <h3 class="text-lg font-medium text-gray-900">Send us a message</h3>
             <form name="contact" method="POST" data-netlify-recaptcha="true" data-netlify="true" class="mt-6 grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-8">
               <div>

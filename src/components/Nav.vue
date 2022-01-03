@@ -70,10 +70,10 @@ import { Disclosure, DisclosureButton, DisclosurePanel, Menu, MenuItem, MenuItem
 import { MenuIcon, XIcon } from "@heroicons/vue/outline";
 
 const navigation = [
-  { name: "Dashboard", href: "#", current: true },
+  { name: "Home", href: "#", current: true },
   { name: "Team", href: "#", current: false },
   { name: "Projects", href: "#", current: false },
-  { name: "Calendar", href: "#", current: false },
+  { name: "Contact", href: "#form", current: false },
 ];
 
 export default {
@@ -86,6 +86,14 @@ export default {
     MenuItems,
     MenuIcon,
     XIcon,
+  },
+  methods: {
+    scrollMeTo(refName) {
+      var element = this.$refs[refName];
+      var top = element.offsetTop;
+
+      window.scrollTo(0, top);
+    },
   },
   setup() {
     return {
