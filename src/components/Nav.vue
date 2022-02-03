@@ -70,10 +70,11 @@ import { Disclosure, DisclosureButton, DisclosurePanel, Menu, MenuItem, MenuItem
 import { MenuIcon, XIcon } from "@heroicons/vue/outline";
 
 const navigation = [
-  { name: "Home", href: "#", current: true },
-  { name: "Team", href: "#", current: false },
-  { name: "Projects", href: "#", current: false },
-  { name: "Contact", href: "#form", current: false },
+  { name: "HJEM", href: "#", current: true },
+  { name: "MEG", href: "#", current: false },
+  { name: "PRORTFOLIO", href: "#", current: false },
+  { name: "SKILLS", href: "#", current: false },
+  { name: "KONTAKT", href: "#form", current: false },
 ];
 
 export default {

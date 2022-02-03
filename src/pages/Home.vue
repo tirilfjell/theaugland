@@ -1,7 +1,7 @@
 <template>
   <Nav />
   <Header />
-  <AboutMe class="mt-32" />
+  <AboutMe class="mt-10" />
   <MyWork />
 
   <!-- Feature section with screenshot -->
