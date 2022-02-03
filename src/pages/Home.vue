@@ -1,6 +1,8 @@
 <template>
   <Nav />
   <Header />
+  <AboutMe class="mt-32" />
+  <MyWork />
 
   <!-- Feature section with screenshot -->
   <div class="relative bg-gray-50 pt-16 sm:pt-24 lg:pt-32">
@@ -235,6 +237,8 @@ import { ChevronRightIcon, ExternalLinkIcon } from "@heroicons/vue/solid";
 import Header from "../components/Header";
 import Nav from "../components/Nav.vue";
 import Form from "../components/Form.vue";
+import MyWork from "../components/MyWork.vue";
+import AboutMe from "../components/AboutMe.vue";
 
 const navigation = [
   { name: "Product", href: "#" },
@@ -433,6 +437,8 @@ export default {
     Header,
     Nav,
     Form,
+    MyWork,
+    AboutMe,
   },
   setup() {
     return {
