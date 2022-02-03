@@ -244,7 +244,7 @@ const navigation = [
 ];
 const features = [
   {
-    name: "Push to Deploy",
+    name: "Snapchat",
     description: "Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi vitae lobortis.",
     icon: CloudUploadIcon,
   },
