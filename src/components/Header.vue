@@ -8,18 +8,18 @@
               <span class="ml-3 mr-3 text-sm">Available for hire</span>
               <span class="px-3 py-0.5 text-white text-xs font-semibold leading-5 uppercase tracking-wide bg-gradient-to-r from-blue-500 to-green-600 rounded-full">February 2022</span>
             </a>
-            <h1 class="mt-4 text-7xl tracking-tight font-extrabold text-white sm:mt-5 sm:text-8xl lg:mt-6 xl:text-8xl">Thea Ugland</h1>
-            <h2 class="mt-10 text-4xl tracking-tight font-extrabold text-white sm:mt-5 sm:text-6xl lg:mt-6 xl:text-6xl">
-              <span class="pb-3 block bg-clip-text text-transparent bg-gradient-to-r from-green-500 to-blue-600 sm:pb-5">content creator</span>
-              <span class="pb-3 block bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-red-500 sm:pb-5">communication consultant</span>
-              <span class="pb-3 block bg-clip-text text-transparent bg-gradient-to-r from-red-500 to-indigo-300 sm:pb-5">marketing</span>
-              <span class="pb-3 block bg-clip-text text-transparent bg-gradient-to-r from-yellow-400 to-green-600 sm:pb-5">social media</span>
+            <h1 class="mt-4 text-7xl tracking-tight font-extrabold text-white sm:mt-5 sm:text-8xl lg:mt-6 xl:text-8xl">Thea Gitmark Ugland</h1>
+            <h2 class="mt-10 text-4xl tracking-tight font-extrabold text-white sm:mt-5 sm:text-5xl lg:mt-6 xl:text-5xl">
+              <span class="pb-3 block bg-clip-text text-transparent bg-gradient-to-r from-yellow-400 to-indigo-600 sm:pb-5">Journalist</span>
+              <span class="pb-3 block bg-clip-text text-transparent bg-gradient-to-r from-red-500 to-indigo-300 sm:pb-5">Markedsfører</span>
+              <span class="pb-3 block bg-clip-text text-transparent bg-gradient-to-r from-yellow-400 to-green-600 sm:pb-5">Sosiale medier</span>
+              <span class="pb-3 block bg-clip-text text-transparent bg-gradient-to-r from-green-500 to-blue-600 sm:pb-5">Innholdsprodusent</span>
+              <span class="pb-3 block bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-red-500 sm:pb-5">Kommunikasjonsrådgiver</span>
             </h2>
           </div>
         </div>
         <div data-aos="fade-left" data-aos-offset="0" data-aos-duration="1000" class="items-stretch self end lg:mt-200 sm:-mb-20 lg:mr-30 lg:relative">
           <div class="mx-auto max-w-md px-4 sm:max-w-2xl sm:px-6 lg:max-w-none lg:px-0">
-            <!-- Illustration taken from Lucid Illustrations: https://lucid.pixsellz.io/ -->
             <img class="lg:absolute lg:top-200 lg:top-28 lg:bottom-0 lg:left-0 lg:h-full lg:w-auto lg:max-w-none" src="../assets/thea5.png" alt="" />
           </div>
         </div>
