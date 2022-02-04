@@ -5,7 +5,7 @@
     <AboutMe class="sm:mt-20 md:mt-20 lg:mt-10" />
     <ImageSlider class="max-w-screen" />
     <Artikel />
-    <Images />
+    <Images class="max-w-screen" />
     <Form />
     <Footer />
   </div>
