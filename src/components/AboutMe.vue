@@ -1,9 +1,9 @@
 <template>
-  <div class="bg-white pt-16 lg:py-24">
-    <div class="pb-16 bg-green-900 lg:pb-0 lg:z-10 lg:relative">
+  <div class="pt-16 lg:py-24">
+    <div class="pb-16 bg-green-800 lg:pb-0 lg:z-10 lg:relative">
       <div class="lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-3 lg:gap-8">
         <div class="relative lg:-my-8">
-          <div aria-hidden="true" class="absolute inset-x-0 top-0 h-1/2 bg-white lg:hidden" />
+          <div aria-hidden="true" class="absolute inset-x-0 top-0 h-1/2 lg:hidden" />
           <div class="mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:p-0 lg:h-full">
             <div data-aos="fade-up-right" data-aos-duration="1500" class="aspect-w-10 aspect-h-6 rounded-xl shadow-xl overflow-hidden sm:aspect-w-16 sm:aspect-h-7 lg:aspect-none lg:h-full">
               <img class="object-cover lg:h-full lg:w-full" src="../assets/theasmile.jpg" alt="" />
@@ -19,10 +19,10 @@
                     d="M9.352 4C4.456 7.456 1 13.12 1 19.36c0 5.088 3.072 8.064 6.624 8.064 3.36 0 5.856-2.688 5.856-5.856 0-3.168-2.208-5.472-5.088-5.472-.576 0-1.344.096-1.536.192.48-3.264 3.552-7.104 6.624-9.024L9.352 4zm16.512 0c-4.8 3.456-8.256 9.12-8.256 15.36 0 5.088 3.072 8.064 6.624 8.064 3.264 0 5.856-2.688 5.856-5.856 0-3.168-2.304-5.472-5.184-5.472-.576 0-1.248.096-1.44.192.48-3.264 3.456-7.104 6.528-9.024L25.864 4z"
                   />
                 </svg>
-                <p class="mt-6 text-2xl font-small text-white">Hei! Mitt navn er Thea Gitmark Ugland</p>
-                <p class="mt-6 text-xl leading-8 font-small text-white">
-                  Jeg er opprinnelig fra Kristiansand, der jeg har gått et treårig utdanningsløp i journalistikk. Nå jobber jeg på Kvadraturen videregående skole, under tittelen miljøarbeider/kommunikasjonsansvarlig for digitale flater. Mine arbeidsoppgaver innebærer alt ansvar for jevnlige
-                  oppdateringer på skolens sosiale medier, samt all foto- og videoarbeid både internt og eksternt. Jeg har også vært prosjektleder og innholdsprodusent for utviklingen av skolens oppstartsapp, i tillegg til mange andre kreative oppdrag som du kan lese mer om nedenfor.
+                <p class="mt-1 text-2xl font-small text-white">Mitt navn er Thea Gitmark Ugland</p>
+                <p class="mt-6 text-md leading-8 font-small text-white">
+                  Jeg er 27 år, og opprinnelig fra Kristiansand, der jeg har gått et treårig utdanningsløp i journalistikk. Nå jobber jeg på Kvadraturen videregående skole, under tittelen miljøarbeider/kommunikasjonsansvarlig for digitale flater. Mine arbeidsoppgaver innebærer alt ansvar for
+                  jevnlige oppdateringer på skolens sosiale medier, samt all foto- og videoarbeid både internt og eksternt. Jeg har også vært prosjektleder og innholdsprodusent for utviklingen av skolens oppstartsapp, i tillegg til mange andre kreative oppdrag som du kan lese mer om nedenfor.
                 </p>
               </div>
             </blockquote>
@@ -32,3 +32,7 @@
     </div>
   </div>
 </template>
+<svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 18.657A8 8 0 016.343 7.343S7 9 9 10c0-2 .5-5 2.986-7C14 5 16.09 5.777 17.656 7.343A7.975 7.975 0 0120 13a7.975 7.975 0 01-2.343 5.657z" />
+  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9.879 16.121A3 3 0 1012.015 11L11 14H9c0 .768.293 1.536.879 2.121z" />
+</svg>
