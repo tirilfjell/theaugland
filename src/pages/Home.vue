@@ -1,8 +1,8 @@
 <template>
   <Nav />
   <Header />
-  <AboutMe class="mt-10" />
-  <MyWork />
+  <AboutMe class="sm:mt-20 md:mt-20 lg:mt-10" />
+  <ImageSlider />
 
   <!-- Feature section with screenshot -->
   <div class="relative bg-gray-50 pt-16 sm:pt-24 lg:pt-32">
@@ -239,6 +239,7 @@ import Nav from "../components/Nav.vue";
 import Form from "../components/Form.vue";
 import MyWork from "../components/MyWork.vue";
 import AboutMe from "../components/AboutMe.vue";
+import ImageSlider from "../components/ImageSlider.vue";
 
 const navigation = [
   { name: "Product", href: "#" },
@@ -439,6 +440,7 @@ export default {
     Form,
     MyWork,
     AboutMe,
+    ImageSlider,
   },
   setup() {
     return {

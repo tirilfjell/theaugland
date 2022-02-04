@@ -1,12 +1,25 @@
 <template>
-  <div class="w-96">
-    <carousel :items-to-show="1.5">
-      <slide v-for="slide in 10" :key="slide"> <img src="../assets/thea5.png" alt="" /> </slide>
-      <template #addons>
-        <navigation />
-        <pagination />
-      </template>
-    </carousel>
+  <div class="">
+    <div class="flex justify-center">
+      <h1>Portfolio</h1>
+    </div>
+    <div class="flex justify-center max-w-screen">
+      <div class="w-5/6 md:w-3/4 lg:w-1/2">
+        <carousel :items-to-show="1.5" :wrap-around="true">
+          <slide :key="1"> <img class="p-1 hover:p-7 lg:p-3" src="../assets/Kvadraturen-vgs-poster.jpg" alt="" /> </slide>
+          <slide :key="2"> <img class="p-1 lg:p-3" src="../assets/Kvadraturen-vgs-forside_Side_1.jpg" alt="" /> </slide>
+          <slide :key="3"> <img class="p-1 lg:p-3" src="../assets/POSTER.jpg" alt="" /> </slide>
+          <slide :key="4"> <img class="p-1 lg:p-3" src="../assets/sprakcafe.png" alt="" /> </slide>
+          <slide :key="5"> <img class="p-1 lg:p-3" src="../assets/app.png" alt="" /> </slide>
+          <slide :key="6"> <img class="p-1 lg:p-3" src="../assets/kollegabesok.png" alt="" /> </slide>
+          <slide :key="7"> <img class="p-1 lg:p-3" src="../assets/sporreundersokelse.png" alt="" /> </slide>
+          <template #addons>
+            <navigation />
+            <pagination />
+          </template>
+        </carousel>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -14,24 +27,6 @@
 // If you are using PurgeCSS, make sure to whitelist the carousel CSS classes
 import "vue3-carousel/dist/carousel.css";
 import { Carousel, Slide, Pagination, Navigation } from "vue3-carousel";
-
-const slides = [
-  {
-    id: 1,
-    imageSrc: require("../assets/POSTER.jpg"),
-    imageAlt: "Person using a pen to cross a task off a productivity paper card.",
-  },
-  {
-    id: 2,
-    image: require("../assets/Kvadraturen-vgs-poster.jpg"),
-    imageAlt: "Person using a pen to cross a task off a productivity paper card.",
-  },
-  {
-    id: 3,
-    image: require("../assets/Kvadraturen-vgs-poster.jpg"),
-    imageAlt: "Person using a pen to cross a task off a productivity paper card.",
-  },
-];
 
 export default {
   name: "App",
@@ -42,9 +37,7 @@ export default {
     Navigation,
   },
   setup() {
-    return {
-      slides,
-    };
+    return {};
   },
 };
 </script>
