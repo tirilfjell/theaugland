@@ -1,12 +1,12 @@
 <template>
-  <div class="bg-green-900 overflow-hidden max-w-screen">
+  <div class="bg-green-900">
     <Nav class="sticky top-0 z-20" />
-    <Header />
-    <AboutMe class="sm:mt-20 md:mt-20 lg:mt-10" />
-    <ImageSlider class="overflow-hidden max-w-screen" />
+    <Header id="home" />
+    <AboutMe id="aboutme" class="sm:mt-20 md:mt-20 lg:mt-10" />
+    <ImageSlider id="portfolio" class="overflow-hidden max-w-screen" />
     <Artikel />
     <Images class="overflow-hidden max-w-screen" />
-    <Form />
+    <Form id="contact" />
     <Footer />
   </div>
 </template>
