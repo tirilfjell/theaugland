@@ -1,5 +1,5 @@
 <template>
-  <div class="">
+  <div class="overflow-hidden max-w-screen">
     <div class="flex justify-center">
       <h2 class="text-3xl tracking-tight font-extrabold text-white my-10 sm:text-4xl italic underline">Plakater</h2>
     </div>

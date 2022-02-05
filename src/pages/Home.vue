@@ -3,9 +3,9 @@
     <Nav class="sticky top-0 z-20" />
     <Header id="home" />
     <AboutMe id="aboutme" class="sm:mt-20 md:mt-20 lg:mt-10" />
-    <ImageSlider id="portfolio" class="overflow-hidden max-w-screen" />
+    <ImageSlider id="portfolio" />
     <Artikel />
-    <Images class="overflow-hidden max-w-screen" />
+    <Images />
     <Form id="contact" />
     <Footer />
   </div>
