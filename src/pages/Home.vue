@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-green-900">
+  <div class="bg-green-900 max-w-screen">
     <Nav class="sticky top-0 z-20" />
     <Header id="home" />
     <AboutMe id="aboutme" class="sm:mt-20 md:mt-20 lg:mt-10" />
