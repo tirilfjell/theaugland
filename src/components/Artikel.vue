@@ -133,8 +133,8 @@ const posts = [
   },
   {
     title: "Språk-Kafé",
-    href: "#",
-    category: { name: "Event", href: "#" },
+
+    category: { name: "Event" },
     description: "På skolen er det mange arrangementer og aktiviteter, som jeg har ansvar for å opplyse elevmassen om. Så det er vanlig at jeg lager diverse plakater/informasjonsskriv som deles rundt på skolen og på sosiale medier. Dette er et eksempel på det.",
     date: "Feb 12, 2020",
     datetime: "2020-02-12",
@@ -148,8 +148,8 @@ const posts = [
   },
   {
     title: "Spørreundersøkelse ",
-    href: "",
-    category: { name: "Undersøkelse", href: "" },
+
+    category: { name: "Undersøkelse" },
     description:
       "Ledelsen på skolen ønsket tilbakemeldinger på oppstarten 2021. Etterspørselen var å lage en undersøkelse med layout som reflekterte skolen. Jeg utformet en spørreundersøkelse i programmet «typeform», som lot meg lage et eget personalisert design som ga mottakerne en bedre opplevelse. Den inneholdt blant annet minneverdige bilder og korte videoer fra oppstarten. ",
     date: "Feb 12, 2020",
