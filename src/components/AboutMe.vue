@@ -2,15 +2,7 @@
   <div class="pt-16 lg:py-24">
     <div class="pb-16 bg-green-800 lg:pb-0 lg:z-10 lg:relative">
       <div class="lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-3 lg:gap-8">
-        <div class="relative lg:-my-8">
-          <div aria-hidden="true" class="absolute inset-x-0 top-0 h-1/2 lg:hidden" />
-          <div class="mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:p-0 lg:h-full">
-            <div data-aos="fade-up-right" data-aos-duration="1500" class="aspect-w-10 aspect-h-6 rounded-xl shadow-xl overflow-hidden sm:aspect-w-16 sm:aspect-h-7 lg:aspect-none lg:h-full">
-              <img class="object-cover lg:h-full lg:w-full" src="../assets/theasmile.jpg" alt="" />
-            </div>
-          </div>
-        </div>
-        <div class="mt-12 lg:m-0 lg:col-span-2 lg:pl-8">
+        <div class="mt-5 lg:m-0 lg:col-span-2 lg:pl-8">
           <div class="mx-auto max-w-md px-4 sm:max-w-2xl sm:px-6 lg:px-0 lg:py-20 lg:max-w-none">
             <blockquote>
               <div>
@@ -20,7 +12,7 @@
                   />
                 </svg>
                 <p class="mt-1 text-2xl font-small text-white">Mitt navn er Thea Gitmark Ugland</p>
-                <p class="mt-6 text-md leading-8 font-small text-white">
+                <p class="mt-6 text-xl leading-8 font-small text-white">
                   Jeg er 27 år, og opprinnelig fra Kristiansand, der jeg har gått et treårig utdanningsløp i journalistikk. Nå jobber jeg på Kvadraturen videregående skole, under tittelen miljøarbeider/kommunikasjonsansvarlig for digitale flater. Mine arbeidsoppgaver innebærer alt ansvar for
                   jevnlige oppdateringer på skolens sosiale medier, samt all foto- og videoarbeid både internt og eksternt. Jeg har også vært prosjektleder og innholdsprodusent for utviklingen av skolens oppstartsapp, i tillegg til mange andre kreative oppdrag som du kan lese mer om nedenfor.
                 </p>
