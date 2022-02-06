@@ -17,11 +17,11 @@
           <div class="flex-1 bg-white p-6 flex flex-col justify-between">
             <div class="flex-1">
               <p class="text-sm font-medium text-indigo-600">
-                <a :href="post.category.href" class="hover:underline">
+                <a :href="post.category.href" target="_blank" class="hover:underline">
                   {{ post.category.name }}
                 </a>
               </p>
-              <a :href="post.href" class="block mt-2">
+              <a :href="post.href" target="_blank" class="block mt-2">
                 <p class="text-xl font-semibold text-gray-900">
                   {{ post.title }}
                 </p>
@@ -42,7 +42,7 @@ const posts = [
   {
     title: "App for Kvadraturen vgs",
     href: "https://www.kvadraturenvgsapp.com/",
-    category: { name: "App utvikling", href: "https://www.kvadraturenvgsapp.com/" },
+    category: { name: "Apputvikling", href: "https://www.kvadraturenvgsapp.com/" },
     description: "I sommer var jeg prosjektleder, samt innholdsprodusent for en skole app for kvadraturen vgs.",
     date: "Feb 12, 2020",
     datetime: "2020-02-12",
@@ -56,8 +56,8 @@ const posts = [
   },
   {
     title: "E-magasin for Kvadraturen vgs",
-    href: "#",
-    category: { name: "E-magasin", href: "#" },
+    href: "https://readymag.com/u2386664963/3167700/",
+    category: { name: "E-magasin", href: "https://readymag.com/u2386664963/3167700/" },
     description:
       "Da jeg skulle velge hvilken VGS-linje jeg ville gå på, så var jeg usikker på hva jeg ville. Jeg er interessert i elektronikk og hadde derfor lyst til å ha elektrofag og lære mer om det, men samtidig så hadde jeg også lyst til å kunne ha de tunge realfagene slik at jeg fikk valgfrihet på høyere utdanning. Derfor følte jeg at ingeniørveien var den perfekte linjen for meg.",
     date: "Feb 12, 2020",
@@ -71,18 +71,34 @@ const posts = [
     },
   },
   {
-    title: "Om skolelivet under pandemien",
-    href: "#",
-    category: { name: "Artikel", href: "#" },
+    title: "Oda Sofie (19) er fisker: – Kvinner blir ikke tatt seriøst",
+    href: "https://www.nrk.no/sorlandet/oda-sofie-_19_-er-fisker_-_-kvinner-blir-ikke-tatt-seriost-1.14409144",
+    category: { name: "Artikel", href: "https://www.nrk.no/sorlandet/oda-sofie-_19_-er-fisker_-_-kvinner-blir-ikke-tatt-seriost-1.14409144" },
     description: "Elevrådsleder Christine, Christines beskjed til medelevene: håper dere ser lyset i enden av tunnelen! Hvordan er det egentlig å være elevrådsleder under en pandemi? Det er litt krevende. ",
     date: "Mar 16, 2020",
     datetime: "2020-03-16",
-    imageUrl: require("../assets/artikel-elevrad.png"),
+    imageUrl: require("../assets/odasofie.jpg"),
     readingTime: "6 min",
     author: {
       name: "Roel Aufderehar",
       href: "#",
       imageUrl: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+    },
+  },
+  {
+    title: "Før kjempet vi alene med problemene våre",
+    href: "https://www.nrk.no/sorlandet/_-for-kjempet-vi-alene-med-problemene-vare-1.14427153",
+    category: { name: "Artikel", href: "https://www.nrk.no/sorlandet/_-for-kjempet-vi-alene-med-problemene-vare-1.14427153" },
+    description:
+      "To bidrag fra Kvadraturen vgs kom på pallen i årets twitternovelle konkurranse. Hvert år arrangerer mållaget en konkurranse for videregående skoler i Kristiansand. Den går ut på å skrive en novelle i form av en mikrotekst på twitter. Deretter kårer en jury de 3 beste bidragene som vinner en pengepremie, 1000 kr for 1. plass, 600 kr for 2. plass og 300 kr for 3. plass. ",
+    date: "Feb 12, 2020",
+    datetime: "2020-02-12",
+    imageUrl: require("../assets/atdhegashi.jpg"),
+    readingTime: "11 min",
+    author: {
+      name: "Daniela Metz",
+      href: "#",
+      imageUrl: "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
     },
   },
   {
@@ -102,29 +118,13 @@ const posts = [
     },
   },
   {
-    title: "Løgn på twitter",
-    href: "#",
-    category: { name: "Artikel", href: "#" },
-    description:
-      "To bidrag fra Kvadraturen vgs kom på pallen i årets twitternovelle konkurranse. Hvert år arrangerer mållaget en konkurranse for videregående skoler i Kristiansand. Den går ut på å skrive en novelle i form av en mikrotekst på twitter. Deretter kårer en jury de 3 beste bidragene som vinner en pengepremie, 1000 kr for 1. plass, 600 kr for 2. plass og 300 kr for 3. plass. ",
-    date: "Feb 12, 2020",
-    datetime: "2020-02-12",
-    imageUrl: require("../assets/artikel-logn.png"),
-    readingTime: "11 min",
-    author: {
-      name: "Daniela Metz",
-      href: "#",
-      imageUrl: "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
-    },
-  },
-  {
-    title: "Kollegabesøk",
-    href: "#",
-    category: { name: "Artikel", href: "#" },
+    title: "Kollegasamarbeid",
+    href: "https://readymag.com/u2386664963/3181437/",
+    category: { name: "Artikel", href: "https://readymag.com/u2386664963/3181437/" },
     description: "Kollegabesøk er viktig for egenutvikling, og det kan medføre at man blir tryggere på seg selv. Det skaper også et godt samarbeid med kollegaer, der man ser hva slags kompetanse de innehar.",
     date: "Feb 12, 2020",
     datetime: "2020-02-12",
-    imageUrl: require("../assets/kollegabesok.png"),
+    imageUrl: require("../assets/kollegasamarbeid.png"),
     readingTime: "11 min",
     author: {
       name: "Daniela Metz",

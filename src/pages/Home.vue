@@ -5,6 +5,7 @@
     <AboutMe id="aboutme" class="sm:mt-20 md:mt-20 lg:mt-10" />
     <ImageSlider id="portfolio" />
     <Artikel />
+    <YouTube />
     <Images />
     <Form id="contact" />
     <Footer />
@@ -22,6 +23,7 @@ import ImageSlider from "../components/ImageSlider.vue";
 import Footer from "../components/Footer.vue";
 import Artikel from "../components/Artikel.vue";
 import Images from "../components/Images.vue";
+import YouTube from "../components/YouTube.vue";
 
 export default {
   components: {
@@ -33,6 +35,7 @@ export default {
     ImageSlider,
     Artikel,
     Images,
+    YouTube,
   },
   setup() {
     return {};
