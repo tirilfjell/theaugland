@@ -3,10 +3,12 @@
   <div class="bg-green-900 max-w-screen overflow-hidden">
     <Header id="home" />
     <AboutMe id="aboutme" class="sm:mt-20 md:mt-20 lg:mt-10" />
+    <Skills id="skills" />
     <ImageSlider id="portfolio" />
     <Artikel />
     <YouTube />
     <Images />
+    <VSCO />
     <Form id="contact" />
     <Footer />
   </div>
@@ -24,6 +26,8 @@ import Footer from "../components/Footer.vue";
 import Artikel from "../components/Artikel.vue";
 import Images from "../components/Images.vue";
 import YouTube from "../components/YouTube.vue";
+import Skills from "../components/Skills.vue";
+import VSCO from "../components/VSCO.vue";
 
 export default {
   components: {
@@ -36,6 +40,8 @@ export default {
     Artikel,
     Images,
     YouTube,
+    Skills,
+    VSCO,
   },
   setup() {
     return {};

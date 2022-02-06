@@ -51,14 +51,14 @@
               <dt><span class="sr-only">Email</span></dt>
               <dd class="flex text-base text-indigo-50">
                 <MailIcon class="flex-shrink-0 w-6 h-6 text-indigo-200" aria-hidden="true" />
-                <span class="ml-3">thea.gitmark.ugland@kvadraturen.vgs.no</span>
+                <a class="mx-3" href="mailto:thea.gitmark.ugland@kvadraturen.vgs.no">thea.gitmark.ugland@kvadraturen.vgs.no </a>
               </dd>
             </dl>
           </div>
           <!-- Contact form -->
           <div id="form" class="py-10 px-6 sm:px-10 lg:col-span-2 xl:p-12">
-            <h3 class="text-lg font-medium text-gray-900">- ikke fungernede for øyeblikket, send meg en mail</h3>
-            <form name="contact" method="POST" data-netlify-recaptcha="true" data-netlify="true" class="mt-6 grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-8">
+            <h3 class="text-lg font-medium text-gray-900">- ikke fungernede for øyeblikket, send meg gjerne en mail</h3>
+            <form name="contact" method="POST" data-netlify="true" class="mt-6 grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-8">
               <div>
                 <label for="first-name" class="block text-sm font-medium text-gray-900">First name</label>
                 <div class="mt-1">

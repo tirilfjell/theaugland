@@ -74,8 +74,8 @@ import { MenuIcon, XIcon } from "@heroicons/vue/outline";
 const navigation = [
   { name: "HJEM", href: "#home", current: true },
   { name: "MEG", href: "#aboutme", current: false },
-  { name: "PRORTFOLIO", href: "#portfolio", current: false },
-  { name: "SKILLS", href: "#", current: false },
+  { name: "FERDIGHETER", href: "#skills", current: false },
+  { name: "PORTFOLIO", href: "#portfolio", current: false },
   { name: "KONTAKT", href: "#contact", current: false },
 ];
 
