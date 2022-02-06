@@ -11,8 +11,8 @@
             <h1 class="mt-4 text-7xl tracking-tight font-extrabold text-white sm:mt-5 sm:text-8xl lg:mt-6 xl:text-8xl">Thea Gitmark Ugland</h1>
             <h2 class="mt-10 text-4xl tracking-tight font-extrabold text-white sm:mt-5 sm:text-5xl lg:mt-6 xl:text-5xl">
               <span class="pb-3 block bg-clip-text text-transparent bg-gradient-to-r from-yellow-400 to-indigo-600 sm:pb-5">Journalist</span>
-              <span class="pb-3 block bg-clip-text text-transparent bg-gradient-to-r from-yellow-400 to-green-600 sm:pb-5">Sosiale medier</span>
               <span class="pb-3 block bg-clip-text text-transparent bg-gradient-to-r from-red-500 to-indigo-300 sm:pb-5">Markedsføring</span>
+              <span class="pb-3 block bg-clip-text text-transparent bg-gradient-to-r from-yellow-400 to-green-600 sm:pb-5">Sosiale medier</span>
               <span class="pb-3 block bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-red-500 sm:pb-5">Kommunikasjon</span>
               <span class="pb-3 block bg-clip-text text-transparent bg-gradient-to-r from-green-500 to-blue-600 sm:pb-5">Innholdsprodusent</span>
             </h2>
