@@ -9,6 +9,10 @@
           <slide :key="1"> <img class="p-1 hover:p-7 lg:p-3" src="../assets/elektro.jpg" alt="" /> </slide>
           <slide :key="2"> <img class="p-1 lg:p-3" src="../assets/gladiator.jpg" alt="" /> </slide>
           <slide :key="3"> <img class="p-1 lg:p-3" src="../assets/verksted.jpg" alt="" /> </slide>
+          <slide :key="4"> <img class="p-1 hover:p-7 lg:p-3" src="../assets/tannhelse.jpg" alt="" /> </slide>
+          <slide :key="5"> <img class="p-1 lg:p-3" src="../assets/forskning.png" alt="" /> </slide>
+          <slide :key="6"> <img class="p-1 lg:p-3" src="../assets/bilbygg.jpg" alt="" /> </slide>
+          <slide :key="7"> <img class="p-1 lg:p-3" src="../assets/vr.jpg" alt="" /> </slide>
           <template #addons>
             <navigation />
             <pagination />
