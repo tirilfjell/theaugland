@@ -1,5 +1,5 @@
 <template>
-  <div class="lg:h-screen lg:w-screen coverPhoto w-full h-full bg-cover bg-no-repeat pt-10 bg-gradient-to-r from-blue-500 to-green-600 sm:pt-16 lg:pt-8 lg:pb-14 lg:overflow-hidden">
+  <div class="lg:h-full lg:w-screen coverPhoto w-full h-full bg-cover bg-no-repeat pt-10 bg-gradient-to-r from-blue-500 to-green-600 sm:pt-16 lg:pt-8 lg:pb-14 lg:overflow-hidden">
     <div class="mx-auto max-w-7xl lg:px-8">
       <div class="lg:grid lg:grid-cols-2 lg:gap-4">
         <div class="mx-auto max-w-md px-4 sm:max-w-2xl sm:px-6 sm:text-center lg:px-0 lg:text-left lg:flex lg:items-center">
