@@ -51,7 +51,7 @@
               <dt><span class="sr-only">Email</span></dt>
               <dd class="flex text-base text-indigo-50">
                 <MailIcon class="flex-shrink-0 w-6 h-6 text-indigo-200" aria-hidden="true" />
-                <a class="mx-3" href="mailto:thea.gitmark.ugland@kvadraturen.vgs.no">thea.gitmark.ugland@kvadraturen.vgs.no </a>
+                <a class="mx-3" href="mailto:thea.gitmark.ugland@gmail.com">thea.gitmark.ugland@gmail.com </a>
               </dd>
             </dl>
           </div>
