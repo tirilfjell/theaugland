@@ -20,7 +20,7 @@
         </div>
         <div data-aos="fade-left" data-aos-offset="0" data-aos-duration="1000" class="items-stretch self end lg:mt-200 sm:-mb-20 lg:mr-30 lg:relative">
           <div class="mx-auto max-w-md px-4 sm:max-w-2xl sm:px-6 lg:max-w-none lg:px-0">
-            <img class="lg:absolute lg:top-200 lg:top-28 lg:bottom-0 lg:left-0 lg:h-full lg:w-auto lg:max-w-none" src="../assets/thea5.png" alt="" />
+            <img class="lg:absolute lg:top-200 lg:top-28 lg:bottom-0 lg:left-0 lg:h-full lg:w-auto lg:max-w-none" src="../assets/thea-main.png" alt="" />
           </div>
         </div>
       </div>

@@ -13,7 +13,7 @@
                 </svg>
                 <p class="mt-1 text-2xl font-small text-white">Mitt navn er Thea Gitmark Ugland</p>
                 <p class="mt-6 text-xl leading-8 font-small text-white">
-                  Jeg er 27 år, og opprinnelig fra Kristiansand, der jeg har gått et treårig utdanningsløp i journalistikk. Nå jobber jeg på Kvadraturen videregående skole, under tittelen miljøarbeider/kommunikasjonsansvarlig for digitale flater. Mine arbeidsoppgaver innebærer alt ansvar for
+                  Jeg er 28 år, og opprinnelig fra Kristiansand, der jeg har gått et treårig utdanningsløp i journalistikk. Nå jobber jeg på Kvadraturen videregående skole, under tittelen miljøarbeider/kommunikasjonsansvarlig for digitale flater. Mine arbeidsoppgaver innebærer alt ansvar for
                   jevnlige oppdateringer på skolens sosiale medier, samt all foto- og videoarbeid både internt og eksternt. Jeg har også vært prosjektleder og innholdsprodusent for utviklingen av skolens oppstartsapp, i tillegg til mange andre kreative oppdrag som du kan lese mer om nedenfor.
                 </p>
                 <svg class="h-12 w-12 text-white opacity-25" fill="currentColor" viewBox="0 0 32 32" aria-hidden="true">
